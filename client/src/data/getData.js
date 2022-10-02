@@ -1,10 +1,10 @@
-import axios from 'axios';
+const axios = require('axios').default;
 
 export const getData = async () => {
   try {
     const res = await axios({
       method: 'GET',
-      url: 'http://localhost:8000/get',
+      url: '/get',
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
