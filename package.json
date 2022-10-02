@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend for moonquake web application",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon index.js",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Soham Deb Majumder",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
