@@ -21,6 +21,7 @@ function Menu(props) {
     setQuake,
     places,
     setPlaces,
+    camera,
     setCamera,
   } = props;
 
@@ -161,7 +162,7 @@ function Menu(props) {
           </tr>
         </tbody>
       </table>
-      <Timeline quake={quake} setQuake={setQuake} setCamera={setCamera} />
+      <Timeline quake={quake} setQuake={setQuake} camera={camera} setCamera={setCamera} />
     </div>
   );
 }

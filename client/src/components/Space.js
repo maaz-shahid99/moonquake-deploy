@@ -107,6 +107,7 @@ function Space() {
         setQuake={setQuake}
         places={places}
         setPlaces={setPlaces}
+        camera={camera}
         setCamera={setCamera}
       />
       <QuakeInfo quake={quake} />

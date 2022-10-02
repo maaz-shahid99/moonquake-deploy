@@ -4,7 +4,7 @@ import '../styles/Timeline.scss';
 import { getData } from '../data/getData';
 
 function Timeline(props) {
-  const { quake, setQuake, setCamera } = props;
+  const { quake, setQuake, camera, setCamera } = props;
   const [data, setData] = useState([]);
   const [year, setYear] = useState([]);
 
@@ -73,12 +73,15 @@ function Timeline(props) {
         <button
           className='apply'
           onClick={() => {
-            console.log('click');
-            setCamera([
-              6 * Math.sin(Math.PI / 2 - degToRad(quake.latitude)) * Math.sin(degToRad(quake.longitude)),
-              6 * Math.cos(Math.PI / 2 - degToRad(quake.latitude)),
-              6 * Math.sin(Math.PI / 2 - degToRad(quake.latitude)) * Math.cos(degToRad(quake.longitude)),
-            ]);
+            if (quake.length === 0 || Object.keys(quake).length === 0) {
+              setCamera(camera);
+            } else {
+              setCamera([
+                6 * Math.sin(Math.PI / 2 - degToRad(quake.latitude)) * Math.sin(degToRad(quake.longitude)),
+                6 * Math.cos(Math.PI / 2 - degToRad(quake.latitude)),
+                6 * Math.sin(Math.PI / 2 - degToRad(quake.latitude)) * Math.cos(degToRad(quake.longitude)),
+              ]);
+            }
           }}
         >
           Apply
