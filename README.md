@@ -8,13 +8,17 @@ Apollo missions were conducted from 1968-72, but till now the seismic data retri
 
 https://nasa-spaceapps-moonquake.herokuapp.com/
 
+## LINK TO PROJECT "DEMO"
+
+https://www.youtube.com/watch?v=IAwY9wcxcLQ
+
 ## DETAILED PROJECT DESCRIPTION
 
 ### BACKGROUND
 
 Apollo crewed missions were conducted from 1968 - 1972. The astronauts left behind several seismometers on the Lunar surface to track the geophysical events occurring on the moon. These seismometers sent back data to earth and were recorded in exabyte tapes. The data has since been studied extensively by scientists to know more about the internal structure of the moon. Although the data has been available for a long period of time, we could not find any tool that can plot and visualize the propagation of the seismic wave in an interactive environment.
 
-### MOONQUAKE VISUALIZED
+## MOONQUAKE VISUALIZED
 ![](server/client/src/assets/readme.png)
 
 We have created 'Moonquake Visualized' a web app to enable users to look at the different seismic activities on the Lunar surface. When the user provides the Date (year & day) as input, the corresponding latitude and longitude along with the details associated with the moonquake on that date are fetched from the database. After receiving the coordinates, an animation of a pressure wave designed in Blender is displayed on a 3D globe made with the help of ThreeJS. The size of the pressure wave is dynamic and is calculated based on the magnitude of the moonquake.
@@ -33,6 +37,24 @@ A drop-down menu for selecting the year and day of the moonquake
 Switching to First-Person-View of a moonquake on the Lunar surface
 From the drop-down menu, the user can select the timing of the moonquake they want to see and the corresponding seismic wave will be displayed on the globe.
 
+### WHAT BENEFITS DOES IT HAVE?
+
+Our project solves the challenge by providing a 3D interface for the users to visualize the seismic activity on the moon. It helps better understand how moonquakes differ from earthquakes in terms of magnitude and propagation. The latitude and longitude grids help identify the precise location of a place. The height map of the globe allows the user to better understand the topography of the Lunar surface. It will also help NASA in the upcoming Artemis mission where the data from the new mission could be processed and displayed. This project provides an interactive app to make the general public aware of the landscape, geography and seismic activity on the moon.
+
+### WHAT DO YOU HOPE TO ACHIEVE?
+
+We hope the project generates an impact, that the younger and mature audience both get to know more about the Moon which is thought to be very inert. It will enable everyone to look at the backside of the moon which they have never seen. The First-Person-View was created to give our audience a feel of what the astronauts felt walking on the moon, what the lunar lander looked like and how a moonquake would feel if they were to be there. We hope they find it fascinating and it helps them increase their knowledge and generate interest in the subject.
+
+### TOOLS USED TO DEVELOP THE PROJECT
+
+The project was developed using:
+
+* The web app was developed using ReactJS
+* For the backend NodeJS was used
+* MongoDB was used as the database
+* All 3d assets and animation were created in Blender and ThreeJS
+* First-Person-View of the simulation was made in Unity3D
+
 ## SPACE AGENCY DATA
 
 - [PDS Geoscience Node](https://pds-geosciences.wustl.edu/lunar/urn-nasa-pds-apollo_seismic_event_catalog/) We used the seismic data provided by NASA planetary Geosciences node for making the Database of our project.
@@ -41,7 +63,3 @@ From the drop-down menu, the user can select the timing of the moonquake they wa
 - [NASA Visible Earth](https://astrogeology.usgs.gov/search/map/Moon/LMMP/LOLA-derived/Lunar_LRO_LOLA_ClrShade_Global_128ppd_v04) map was used for making a 3D model of Earth.
 - [NASA 3D resources](https://nasa3d.arc.nasa.gov/models) were used for creating all the 3D environment objects.
 - [IRIS DMC](http://ds.iris.edu/ds/nodes/dmc/forms/assembled-data/?dataset_report_number=90-003) was used to download the original assembled PSE data files.
-
-## TAGS
-
-#Moon #Lunar #Geophysics #3D #WebApp #ReactJS #Blender
