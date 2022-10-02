@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.8f9e9f94.css",
-    "main.js": "/static/js/main.86781515.js",
-    "static/media/moon.jpg": "/static/media/moon.510250a2fc36d1d7da9f.jpg",
-    "static/media/height.jpg": "/static/media/height.9b7b01de4ca39295e619.jpg",
-    "static/media/sun.jpg": "/static/media/sun.fdc867e9d2bad06fd47e.jpg",
+    "main.js": "/static/js/main.b79f0206.js",
+    "static/media/height.jpg": "/static/media/height.239aea031bd9e4421770.jpg",
+    "static/media/moon.jpg": "/static/media/moon.27e6da59321317a6410a.jpg",
     "static/media/vishal.jpg": "/static/media/vishal.168f21c6fbc22da6197d.jpg",
     "static/media/loader.gif": "/static/media/loader.cca544e74ccc73e63ebd.gif",
     "static/media/arkadeep.jpeg": "/static/media/arkadeep.3b5b46f6c9ae12c606fc.jpeg",
     "static/media/soham.jpg": "/static/media/soham.6d58602395dc49c69c29.jpg",
     "static/media/roboto-mono-all-400-normal.woff": "/static/media/roboto-mono-all-400-normal.615f3bbd43698e99d078.woff",
+    "static/media/sun.jpg": "/static/media/sun.5b3c078ac3714d30c1b9.jpg",
     "static/media/roboto-mono-cyrillic-ext-400-normal.woff2": "/static/media/roboto-mono-cyrillic-ext-400-normal.13c026e0294440303c69.woff2",
     "static/media/roboto-mono-latin-400-normal.woff2": "/static/media/roboto-mono-latin-400-normal.d3026ee29728abffa752.woff2",
     "static/media/maaz.jpeg": "/static/media/maaz.deb256adf9cff8e875cc.jpeg",
@@ -19,10 +19,10 @@
     "static/media/roboto-mono-vietnamese-400-normal.woff2": "/static/media/roboto-mono-vietnamese-400-normal.a9575edb558363648d81.woff2",
     "index.html": "/index.html",
     "main.8f9e9f94.css.map": "/static/css/main.8f9e9f94.css.map",
-    "main.86781515.js.map": "/static/js/main.86781515.js.map"
+    "main.b79f0206.js.map": "/static/js/main.b79f0206.js.map"
   },
   "entrypoints": [
     "static/css/main.8f9e9f94.css",
-    "static/js/main.86781515.js"
+    "static/js/main.b79f0206.js"
   ]
 }
