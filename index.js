@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const morgan = require('morgan');
 const cors = require('cors');
 require('dotenv').config();
-
+const path = require('path');
 //password-1vWvgB5qLU70PNmD
 
 //app
